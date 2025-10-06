@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Container & Spacing</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Containers and Spacing</h1>
+    <!-- Margin -->
+    <!-- https://tailwindcss.com/docs/margin -->
+
+    <h1 class="text-2xl font-bold underline text-red-500">Margin</h1>
+    <div class="bg-yellow-400 m-15">Margin all around</div>
+    <div class="bg-yellow-400 mx-15">Margin x-axis</div>
+    <div class="bg-yellow-400 my-15">Margin y-axis</div>
+    <div class="bg-yellow-400 mt-15">Margin top</div>
+    <div>.</div>
+    <div class="bg-yellow-400 mb-15">Margin bottom</div>
+    <div class="bg-yellow-400 ml-15">Margin left</div>
+    <div class="bg-yellow-400 mr-15">Margin right</div>
+    
+    <br />
+
+
+    <!-- Arbitrary/Custom Spacing -->
+    
+    <h1 class="text-2xl font-bold underline text-red-500">Aribitrary Values</h1>
+    <div class="bg-orange-400 m-[16px]">Arbitary all around</div>
+    <div class="bg-orange-400 m-[1rem]">Arbitary all around</div>
+    <div class="bg-orange-400 m-[10%]">Arbitary all around</div>
+    <div class="bg-orange-400 m-[15vh]">Arbitary all around</div>
+    <div class="bg-orange-400 mx-[16px]">Arbitary x-axis</div>
+     <div>.</div>
+    <div class="bg-orange-400 my-[16px]">Arbitary y-axis</div>
+     <div>.</div>
+    <div class="bg-orange-400 mt-[16px]">Arbitary top</div>
+    <div>.</div>
+    <div class="bg-orange-400 mb-[16px]">Arbitary bottom</div>
+    <div>.</div>
+    <div class="bg-orange-400 ml-[16px]">Arbitary left</div>
+    <div>.</div>
+    <div class="bg-orange-400 mr-[16px]">Arbitary right</div>
+    <br />
+
+   
+    
+    <!-- Padding -->
+    <!-- https://tailwindcss.com/docs/padding -->
+    
+    <h1 class="text-3xl font-bold underline text-green-400">Padding</h1>
+  <div>.</div>
+    <div class="bg-yellow-400 p-25">padding all around</div>
+    <div>.</div>
+    <div class="bg-yellow-400 px-25">padding x-axis</div>
+    <div>.</div>
+    <div class="bg-yellow-400 py-25">padding y-axis</div>
+    <div>.</div>
+    <div class="bg-yellow-400 pt-25">padding top</div>
+    <div>.</div>
+    <div class="bg-yellow-400 pb-25">padding bottom</div>
+    <div>.</div>
+    <div class="bg-yellow-400 pl-25">padding left</div>
+    <div>.</div>
+    <div class="bg-yellow-400 pr-25">padding right</div>
+
+    <!-- https://tailwindcss.com/docs/space -->
+    <!-- Space Between X -->
+   <h3 class="text-2xl font-bold underline text-orange-600">Space Between X</h3>
+   <div class="flex space-x-5">
+<div class="bg-teal-300 p-4">1</div>
+<div class="bg-teal-400 p-4">2</div>
+<div class="bg-teal-500 p-4">3</div>
+</div>
+    <!-- Space Between Y -->
+   <h3 class="text-2xl font-bold underline text-orange-600 mt-5">Space Between y</h3>
+   <div class="flex flex-col space-y-5">
+<div class="bg-teal-300 p-4">1</div>
+<div class="bg-teal-400 p-4">2</div>
+<div class="bg-teal-500 p-4">3</div>
+</div>
+  </body>
+</html>
